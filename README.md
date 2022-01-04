@@ -1,2 +1,1 @@
-# Python-advanced
-Python Advanced Concepts
+# Python Advanced Concepts
