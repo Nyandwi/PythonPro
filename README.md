@@ -1,6 +1,6 @@
 # Python Advanced Concepts
 
-[*Status: Ongoing work, updated in no order]
+*[Status: Ongoing work, updated in no order]*
 
 Python is a popular programming language that emphasizes efficiency, readability and simplicity ahead of anything. Due to its rich standard library, it has been called "a batter included" language.
 
