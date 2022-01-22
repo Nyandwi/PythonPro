@@ -1,4 +1,4 @@
-# Python Advanced Stuff
+# Python Advanced Concepts
 
 [*Status: Ongoing work, updated in no order]
 
