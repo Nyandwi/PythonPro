@@ -62,7 +62,7 @@ def fibo(n):
 
 * If we modify the recursive tree like below, we could potentially save work needed to find the number of the series since we are not recomputing the functions that already have values.
 
-![fibo2](../images/fibo-2.JPG)
+![fibo2](../images/fibo-2.jpg)
 
 
 * Let's now compute the fibonacci series efficiently using dynamic programming. The only thing we do is to store the results of the similar recursive calls and reuse them everytime we face them rather than recomputing twice or thirdth or fourth...
