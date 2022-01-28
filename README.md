@@ -17,11 +17,11 @@ This repository is a home of Python most advanced concepts and features. It's an
 * Writing Pythonic Code: Tricks and Know How to's
 * Decorators
 * Generators
+* Itertools
+* Collections
 * OOP - Classes and Objects: [notebook](notebooks/oop-classes-objects.ipynb), [markdown](markdowns/oop-classes-objects.md)
 * OOP - Inheritance
 * OOP - Magic Methods
-* Itertools
-* Collections
 * Logging
 * Threading
 * Debugging
