@@ -168,7 +168,7 @@ def fibo(n):
 
 * Taking an example: the `fibo(5)` will have `3 fibo(2)` and 2 `fibo(3)` repeated calls. How can we cache the results of those repeated calls to use them later so as to save time and space?
 
-![fibo](../images/fibo.jpg)
+![fibo](../images/fibo.JPG)
 ***Image: The recursive tree of `fibo(5)`.  Image by author.***
 
 * More about dynamic programming later!!
