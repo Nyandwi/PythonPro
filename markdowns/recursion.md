@@ -38,6 +38,90 @@
 <a name='2'></a>
 ### 2. Example of Recursive Functions
 
+#### 2.0 Types of Recursion
+
+* We have five general types of recursive functions typically: Tail recursion, Head recursion, Tree recursion, Indirect recursion and Nested recursion.
+##### 2.0.1 Tail recursion
+
+* In the tail recursive function the recursive is the last statement to the recursive function.
+* This recursion can be easily implemented as a loop and algorithmic thinking you can preferably choose the loop as they can have same runtime complexity but for space complexity the loop will be much efficient over tail recursion.
+* Let's take an example of printing first x natural numbers from highest
+* Using a loop
+```python
+def print_x_num(x: int) -> None:
+    while x > 0:
+        print(x)
+        x = x -1
+```
+* Tail recursion approach
+```python
+def print_x_num(x: int) -> None:
+    if x > 0:
+        print(x)
+        print_x_num(x-1)
+```
+##### 2.0.2 Head recursion
+
+* In head recursive function the recursive call is the first statement to the recursive function.
+* It is hard to implement it directly using a loop
+* Let's take an example of printing first x natural numbers from the lowest.
+* Using a loop
+```python
+def print_x_num(x: int) -> None:
+    i = 1
+    while i <= x:
+        print(i)
+        i += 1    
+```
+* Head Recursion approach
+```python
+def print_x_num(x: int) -> None:
+    if x > 0:
+        print_x_num(x - 1)
+        print(x)
+```
+
+##### 2.0.3 Tree recursion
+* In tree recursive the function calls itself more than one times
+* A typical example is finding the nth Fibonacci number
+* Recursive approach
+```python
+def fibo(n: int) -> int:
+    if n == 0 or n == 1:
+        return n
+    else:
+       return fibo(n-1) + fibo(n-2) 
+```
+
+##### 2.0.4 Indirect Recursion
+* In indirect recursive function there may be more than one function calling one another in a circular fashion.
+* Let's take an example to print a pattern 20 19 9 8 4 3 1 if passed n as 20
+```python
+def funA(n: int) -> None:
+    if n > 0:
+        print(n)
+        funB(n-1)
+def funB(n: int) -> None:
+    if n > 0:
+        print(n)
+        funA(int(n/2))
+```
+* Output
+
+![indir](../images/indir.jpeg)
+***Image: The recursion tree of `funA(20)`.  Image by author.***
+
+##### 2.0.5 Nested recursion
+* In nested recursion the recursive call parameter is passed as a recursive call
+* Example
+```python
+def nest_rec(n: int) -> int:
+    if n > 100:
+       return n - 10
+    else:
+        return nest_rec(nest_rec(n + 11))
+```
+
 #### 2.1 Multiplication of two numbers
 
 * Given two numbers, return their multiplication without using arthimetic operator of `*`. 
