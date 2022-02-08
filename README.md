@@ -2,9 +2,9 @@
 
 *[Status: Ongoing work, updated in no order and slowly]*
 
-Python is a popular programming language that emphasizes efficiency, readability and simplicity ahead of anything. Due to its rich standard library, it has been called "a batter included" language.
+Python is a popular programming language that emphasizes efficiency, readability and simplicity ahead of anything. Due to its rich standard library, it has been called "a battery included" language.
 
-This repository is a home of Python most advanced concepts and features. It's an extension of a former repository of Python basics.
+This repository is a home of Python most advanced concepts and features. It's an extension of a former repository of [Python basics](https://github.com/Nyandwi/PythonBasics).
 
 ## Outline
 
@@ -20,7 +20,7 @@ This repository is a home of Python most advanced concepts and features. It's an
 * Itertools
 * Collections
 * OOP - Classes and Objects: [notebook](notebooks/oop-classes-objects.ipynb), [markdown](markdowns/oop-classes-objects.md)
-* OOP - Inheritance
+* OOP - Inheritance: [notebook](notebooks/oop-inheritance.ipynb), [markdown](markdowns/oop-inheritance.md)
 * OOP - Magic Methods
 * Logging
 * Threading

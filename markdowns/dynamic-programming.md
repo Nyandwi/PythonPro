@@ -112,7 +112,7 @@ fibo_2(120)
 ```python
 def fib_bottom(n):
     if n == 1 or n == 0:
-        return 1
+        return n
     
     a = 0
     b = 1
@@ -126,10 +126,10 @@ def fib_bottom(n):
 ```
 ```
 fib_bottom(120)
-8670007398507948658051921
+5358359254990966640871840
 ```
 
-* **What we are doing above:** As usual, if n is 0 or 1, its fibonacci number is 1. We start with assigning 0 to variable `a` and 1 to `b` as the simplest cases. Then at every step all the way to n, we find `c` as sum of `a` and `b`(c is like the fibonacci of i but we are not using i), `update a with b` and `update b with c`. 
+* **What we are doing above:** As usual, if n is 0 or 1, its fibonacci number is n. We start with assigning 0 to variable `a` and 1 to `b` as the simplest cases. Then at every step all the way to n, we find `c` as sum of `a` and `b`(c is like the fibonacci of i but we are not using i), `update a with b` and `update b with c`. 
 
 * The runtime of the algorithm is `O(n)` for looping through the list `range(n)`. Finding `fib_bottom(120)` also takes a fraction of milliseconds.
 
