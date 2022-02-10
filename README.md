@@ -1,6 +1,6 @@
 # Python Pro Features
 
-*[Status: Ongoing work, updated in no order and slowly]*
+*[Status: Ongoing work, one commit at time]*
 
 Python is a popular programming language that emphasizes efficiency, readability and simplicity ahead of anything. Due to its rich standard library, it has been called "a battery included" language.
 
