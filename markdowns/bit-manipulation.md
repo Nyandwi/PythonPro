@@ -181,7 +181,6 @@ a >> 4: 0
 def swap_numbers(a, b):
     """
     Given two integers a and b, swap them without using any additional variable
-    Solution: Use bitwise operator XOR(^)
     """
     
     a = a ^ b 
@@ -208,7 +207,6 @@ Swapped A:32, Swapped B: 12
 def swap_numbers_2(a, b):
     """
     Given two integers a and b, swap them without using any additional variable
-    Solution: Use bitwise operator XOR(^)
     """
     
     a = b - a
